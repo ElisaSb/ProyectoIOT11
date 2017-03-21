@@ -1,0 +1,5 @@
+   NOMBRE        EDAD  ALTURA   PESO
+juan jiménez       23    1,55  56,21
+pedro ramírez      22    1,78  71,80
+luisa fernández    34    1,88  85,00
+maría garcía       21    2,00   3,00

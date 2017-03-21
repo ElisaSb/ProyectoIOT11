@@ -1,0 +1,5 @@
+juan pedro garcía garcía, 25, true
+luisa medina medina, 23, false
+sabino perez perez, 89, true
+carlos aguilar ortega, 19, true
+daniel moreno crespo, 22, true
