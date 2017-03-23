@@ -55,10 +55,14 @@ public class Ejercicios1 {
 	}
 	public static void generarFicheroTexto(int[] arrayNumeros) {
 		try (BufferedWriter out = new BufferedWriter(new FileWriter("FicherosSalida/numeros.txt"));){
+			String cadenaSalida = "";
 			for (int numero : arrayNumeros) {
-				out.write(""+numero);
-				out.flush();
+				cadenaSalida += numero + "-";
+				/*out.write("-"+numero);
+				out.flush();*/
 			}
+			out.write(cadenaSalida.substring(0, cadenaSalida.length() -1));
+			out.flush();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Problemas con el fichero.");
